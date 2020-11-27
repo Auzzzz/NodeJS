@@ -10,5 +10,5 @@ const server = app.listen(7000, () => {
 
 // define a route
 app.get('/', (req, res) => {
-    res.send('Hello World!');
+    res.send('Hello World! Update Test');
 });
